@@ -1,0 +1,8 @@
+tenacity
+langchain
+openai
+langchain-openai
+neo4j
+streamlit
+langchainhub
+langchain-neo4j

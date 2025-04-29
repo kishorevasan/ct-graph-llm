@@ -31,12 +31,12 @@ tools = [
         func=ct_chat.invoke,
     ),
     Tool.from_function(
-        name = "Clinical trial Search",
+        name = "Document embedding search",
         description = "For when you need to search clinical trials based on desciption of the trial",
         func=get_ct_description,
     ),
     Tool.from_function(
-        name = 'Clinical trials knowledge information',
+        name = 'Clinical trials knowledge graph',
         description = 'Answer clinical trials related questions that require a knowledge graph to answer using Cypher',
         func = cypher_ct_chain
     )

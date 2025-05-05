@@ -32,12 +32,12 @@ tools = [
     ),
     Tool.from_function(
         name = "Document embedding search",
-        description = "For when you need to search clinical trials based on desciption of the trial",
+        description = "For when you need to search for clinical trials based on a given query",
         func=get_ct_description,
     ),
     Tool.from_function(
         name = 'Clinical trials knowledge graph',
-        description = 'Answer clinical trials related questions that require a knowledge graph to answer using Cypher',
+        description = 'Answer clinical trials related questions using real-world accurate data. Done using Knowledge graphs and Cypher queries',
         func = cypher_ct_chain
     )
 ]

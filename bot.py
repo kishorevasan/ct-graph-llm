@@ -28,7 +28,7 @@ st.markdown(
 
     <p style="font-size: 18px; max-width: 800px; margin: auto; text-align: center;">
     Stay on top of the innovation pipeline with real-time data. TrialQuery lets you ask natural questions like:
-    <i>"What are some of the ongoing trials for Breast Cancer in the United States?"</i> or <i>"How many Obesity trials are funded by Eli Lilly, and what is the summary of those trials?"</i>
+    <i>"What are some of the ongoing trials for Breast Cancer in the United States?"</i> or <i>"What are some of the drugs tested for Breast Cancer?"</i> or <i>"How many Obesity trials are funded by Eli Lilly?"</i>
 
     Answering these kinds of questions usually requires complex SQL and access to massive real-time datasets. TrialQuery simplifies this by combining graph-based reasoning with semantic search in a Hybrid RAG (Retrieval-Augmented Generation) approach. It leverages a curated clinical trials knowledge graph to minimize hallucinations and improve accuracy.
     \n Give it a try - and explore how AI can make clinical research more transparent and accessible. As always, the app is <strong>open source</strong> and reproducible: <a href="https://github.com/kishorevasan/ct-graph-llm" target="_blank">View on GitHub</a>

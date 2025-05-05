@@ -44,6 +44,14 @@ WHERE ct.status IN ['RECRUITING','ACTIVE_NOT_RECRUITING','ENROLLING_BY_INVITATIO
 RETURN ct.summary
 ```
 
+5. To get the driugs tested for a specific disease:
+```
+MATCH (ct:ClinicalTrial)-[:HAS_CONDITION]->(c:Condition),
+      (ct)-[:HAS_INTERVENTION]->(i:Intervention)
+WHERE c.name CONTAINS 'Hypertension' AND i.type CONTAINS 'DRUG'
+RETURN i.name AS drug
+```
+
 Schema:
 {schema}
 

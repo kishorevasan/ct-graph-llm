@@ -15,7 +15,7 @@ from tools.cypher import cypher_ct_chain
 # Create a movie chat chain
 chat_prompt = ChatPromptTemplate.from_messages(
     [
-        ("system", "You are a clinical trials expert providing information about clinical trials."),
+        ("system", "You are a clinical trials expert providing information about clinical trials. Use the graph database and vector search to ground your responses in real world data."),
         ("human", "{input}"),
     ]
 )

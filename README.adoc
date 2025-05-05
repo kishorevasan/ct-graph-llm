@@ -4,6 +4,8 @@ image::sora_gpt_robot.jpeg[An image showing robots helping researcher make sense
 
 This repository accompanies the blogpost link:https://kishorevasan.github.io/graph_llm_tutorial.html[blogpost^].
 
+View the deployed implementation of this app at link:https://www.trialquery.com
+
 If you want a formal course on building similar applications checkout this course from Neo4J Graph Academy, link:https://graphacademy.neo4j.com/courses/llm-chatbot-python/?ref=github[enrol now^].
 
 == Running the application
